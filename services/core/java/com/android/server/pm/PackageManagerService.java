@@ -1391,6 +1391,7 @@ public class PackageManagerService extends IPackageManager.Stub {
                                     packageName, extras, null, null, firstUsers);
                             final boolean update = res.removedInfo.removedPackage != null;
                             if (update) {
+                                extras = new Bundle(extras);
                                 extras.putBoolean(Intent.EXTRA_REPLACING, true);
                             }
                             sendPackageBroadcast(Intent.ACTION_PACKAGE_ADDED,
