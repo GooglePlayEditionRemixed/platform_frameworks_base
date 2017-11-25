@@ -1137,7 +1137,7 @@
 
     <!-- Component name of the default wallpaper. This will be ImageWallpaper if not
          specified -->
-    <string name="default_wallpaper_component" translatable="false">com.android.sunbeam/com.android.sunbeam.SunBeamWallpaper</string>
+    <string name="default_wallpaper_component" translatable="false">@null</string>
 
     <!-- Component name of the built in wallpaper used to display bitmap wallpapers. This must not be null. -->
     <string name="image_wallpaper_component" translatable="false">com.android.systemui/com.android.systemui.ImageWallpaper</string>
